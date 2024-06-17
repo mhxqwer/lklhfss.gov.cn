@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+/*信息公开样式 on*/
+.treetitle{ background:#275293 !important;}
+.xxgk_lmlink li a .ico{background-image:url(../images/gk_lmico.png) !important;}
+.treetit.sec2{ background: #f5f8fd !important;}
+
+.xxgk_sqxxktop ul li.active a, .xxgk_sqxxktop ul li a:hover{background:#275293 !important;}
+.xxgk_sq_sqbtop ul.tit{ color:#275293 !important;}
+ 
+.xxgk_sqr span, .xxgk_sqr1 span{ color:#275293 !important;}
+ 
+.xxgk_sq_btn input.tj{background:#275293 !important;}
+
+.wgk_xxktop ul li a:hover, .wgk_xxktop ul li.active a, .wgk_xxktop ul li.active span{background-color:#275293 !important;}
+.wgk_xxktab ul li i{background-image:url(../images/gknew-ztreearron.png);}
+.wgk_xxktab ul li.active i{background-image:url(../images/gknew-ztreearr.png);}
+
+.treetit{border-color:#275293 !important;}
+.treetit .sec2{background:#275293 !important;} 
+/***信息公开样式 end***/
+.work_xsq_link .grfr li a:hover{color:#275293 !important;}
+.work_xsq_tab li.active a{color:#275293 !important;border-color:#275293 !important;}
+.work_bmcxbox .work_link li a:hover {color:#275293 !important;border-color:#275293 !important;}
+.work_cxbtn li a:hover{ color:#275293!important; border-color:#275293!important;}
+
+.work_column_tab li.active a {background:#275293 !important;}
+.work_classifyList li:hover, .work_classifyList li.active {background:#275293 !important;}
+
+.work-detail{border-color:#275293 !important}
+
+.work_column_tab li a:hover{color:#275293 !important;}
+.work_column_tab li.active a{background-color:#275293 !important;}
+.work_column_tab li.active a:hover{color:#fff !important;}
+.work_search .ss2{background-color:#275293 !important;}
+.work_checkbox_input.selected{color:#275293 !important;}
+.work_checkbox_input.selected i{ background-color:#275293 !important;border-color:#275293 !important;}
+.work_selectbox2 #e_container li.selected,.work_selectbox3 #e_container li.selected{color:#275293 !important;}
+
+
+.work_content_tel li a{background-color:#e9f1fd !important;border-color:#7791b9 !important;}
+.work_content_tel li a:hover{color:#275293 !important;}
+.work_content_tel li.last a{border-right-color:#7791b9 !important;}
+.work_content_tel li.active a{background-color:#275293 !important;border-color:#275293 !important;}
+.work_content_tel li.active a:hover{color:#fff !important;}
+
+
+.work-menu .sxoperate:hover{border-color:#275293 !important;color:#275293 !important;background-image:url("../images/workwz_titicoh.png") !important;}
+.ssqdys-grid .map-mark-logo{background-image:url("../images/workwz_pos.gif") !important;}
+.grid-table a,.downloadResult,.grid-table a:hover,.downloadResult:hover{color:#275293 !important;}
+
+.container.mt20{margin-top: 0 !important;}
+.home_web{display: none !important;}
+@media (max-width: 767px){
+    .work_content{margin: 0 !important;}
+}
+.wza-on .zwfw_bjlist{height:auto;}
+
+
+
+
+/*20201102新增样式*/
+.gknew_logo,.back_home{ display:none!important;}
+.xxgklmbody{ background-image: url("../images/xxgkbodybg.jpg");}
+.xxgk-search ul{ border-color:#275293;}
+.xxgk-search .search-btn{background:url(../images/gk-search_btn.png) center center no-repeat!important;}
+.xxgk_lmlink dl.lmlink-tab a{background:#fff url("../images/gknew-treeico.png") no-repeat right center!important;}
+.xxgk_lmlink dl a .ico{background-image: url("../images/gknew_ico1.png") !important;}
+
+.xxgk-search .search_box ul{ border-color: #275293!important;}
+.xxgk_lmlink dl a, .xxgk_links li a,.font-le,.wgk_xxktab ul li,.ztree li a.curSelectedNode, .ztree li a.curSelectedNode_Edit,.xxgk_sqr,.xxgk_sq_sqbtop ul.tit,.xxgk_sqr span, .xxgk_sqr1 span{ color: #275293!important;}
+.xxgk_sqr, .xxgk_sqr1{border-color: #275293!important;}
+.xxgk_lmlink dl a:hover, .xxgk_lmlink dl.active a{border-color: #275293!important; background-color: #275293!important; color: #fff !important; }
+.gkzd-title span, .gkzd-title a,.ls_gktit span, .ls_gktit a,.xxgk_sq_btn .ysq_btns input,.xxgk_sqxxktop ul li.active a, .xxgk_sqxxktop ul li a:hover,.xxgk_lmlink dl.lmlink-tab a:hover,.xxgk_lmlink dl.lmlink-tab.active a,.xxgk_sq_btn input.tj{background-color: #275293!important;}
+.xxgk_lmlink dl.lmlink-tab a:hover, .xxgk_lmlink dl.lmlink-tab.active a{background-image: url(../images/gknew-treeicoh2.png) !important;background-position: right center;background-color: #275293 !important;border-color: #275293 !important;background-repeat: no-repeat!important;}
+
+
+/*20210821新增样式*/
+.new-add-wza{display:none;}
+.gk_container .share-box{top:-2px;left:0;right:auto;}
+.navContent ul li.active{background-color:#eef4fd;}
+.navContent ul li.active a{color:#275293;}
+.gkmore a:hover{background-color:#275293;}
+
+.tb_title{background-color:#ecf2fd;color:#275293;}
+.tb_title th{border-bottom-color:#43669e;}
+
+.xxgkmnbox h2{background-color:#275293;border-color:#275293;}
+.xxgk_jstable{background-image:url(../images/ysq_xxjsn.png);}
+
+@media (min-width: 1100px) and (max-width:1159px) {
+    .gk_container2{width:1100px;}
+}
+@media only screen and (max-width: 1099px) and (min-width: 992px){
+    .xxgk_lmright{width:678px;}
+}
+
+
+
+
+
